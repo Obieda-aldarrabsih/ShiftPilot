@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: shiftpilot
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shiftpilot
+    username: shiftpilot
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+
+jwt:
+  secret: 49454E856F28564F42576A5E315234364448373147414A51445A48395A6D5645
+  expiration: 86400000 # 24 hours for demo purposes
+  refresh-expiration: 604800000 # 7 days
