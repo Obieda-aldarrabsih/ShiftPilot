@@ -12,15 +12,32 @@ ShiftPilot is a real-time dispatch and field operations platform built for SMEs 
 
 ---
 
-## Visual Preview & Interface
+## Visual Preview & Interface (Light & Dark Mode)
 
-| Real-Time Dispatcher Console | Dispatcher Authentication |
+### Real-Time Dispatcher Console (Kanban Board)
+| Light Mode | Dark Mode |
 | :---: | :---: |
-| ![ShiftPilot Dispatcher Board](docs/screenshots/01-dispatch-board.png) | ![ShiftPilot Login](docs/screenshots/02-auth-login.png) |
+| ![ShiftPilot Dispatch Board Light](docs/screenshots/01-dispatch-board-light.png) | ![ShiftPilot Dispatch Board Dark](docs/screenshots/01-dispatch-board-dark.png) |
 
-| Field Agent Mobile View |
-| :---: |
-| <img src="docs/screenshots/03-agent-mobile.png" width="380" alt="Field Agent Mobile View" /> |
+### Fleet Analytics & SLA Metrics
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| ![ShiftPilot Analytics Light](docs/screenshots/02-analytics-light.png) | ![ShiftPilot Analytics Dark](docs/screenshots/02-analytics-dark.png) |
+
+### Live Field Operations Map
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| ![ShiftPilot Live Map Light](docs/screenshots/03-live-map-light.png) | ![ShiftPilot Live Map Dark](docs/screenshots/03-live-map-dark.png) |
+
+### Field Agent Mobile Task Interface
+| Agent Route (Light) | Agent Route (Dark) |
+| :---: | :---: |
+| <img src="docs/screenshots/04-agent-mobile-light.png" width="340" alt="Agent Mobile View Light" /> | <img src="docs/screenshots/04-agent-mobile-dark.png" width="340" alt="Agent Mobile View Dark" /> |
+
+### Portal Authentication
+| Dispatcher Login | Field Agent Mobile Login |
+| :---: | :---: |
+| ![Dispatcher Login](docs/screenshots/05-auth-login-light.png) | ![Agent Login](docs/screenshots/06-agent-login-dark.png) |
 
 ---
 
