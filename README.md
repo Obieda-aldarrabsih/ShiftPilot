@@ -12,6 +12,18 @@ ShiftPilot is a real-time dispatch and field operations platform built for SMEs 
 
 ---
 
+## Visual Preview & Interface
+
+| Real-Time Dispatcher Console | Dispatcher Authentication |
+| :---: | :---: |
+| ![ShiftPilot Dispatcher Board](docs/screenshots/01-dispatch-board.png) | ![ShiftPilot Login](docs/screenshots/02-auth-login.png) |
+
+| Field Agent Mobile View |
+| :---: |
+| <img src="docs/screenshots/03-agent-mobile.png" width="380" alt="Field Agent Mobile View" /> |
+
+---
+
 ## Architecture
 
 ShiftPilot uses an event-driven architecture decoupled across stateful WebSocket clients and stateless backend services via Redis Pub/Sub:
